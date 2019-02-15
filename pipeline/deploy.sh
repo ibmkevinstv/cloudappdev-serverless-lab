@@ -34,3 +34,4 @@ bx fn service bind cloudantNoSQLDB ${CL_PACKAGE} --instance feedback-db-alias --
 # bx fn api create /${ACTION_PREFIX}feedback /entries GET ${SEQ_READ} -n ${ACTION_PREFIX}feedback
 
 # bx fn api create /${ACTION_PREFIX}feedback /entries PUT ${SEQ_WRITE} -n ${ACTION_PREFIX}feedback
+
